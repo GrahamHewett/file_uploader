@@ -1,0 +1,30 @@
+{
+  "name": "express_file_uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "npm-run-all server client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrahamHewett/file_uploader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrahamHewett/file_uploader/issues"
+  },
+  "homepage": "https://github.com/GrahamHewett/file_uploader#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-fileupload": "1.1.6"
+  },
+  "devDependencies": {
+    "npm-run-all": "4.1.5"
+  }
+}
